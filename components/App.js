@@ -74,4 +74,4 @@ App = React.createClass({
             </div>    
         )
     }
-})
+});
