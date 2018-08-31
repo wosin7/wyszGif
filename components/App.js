@@ -65,6 +65,12 @@ App = React.createClass({
                 <Search />
             <Gif />
           </div>
+                <Gif 
+                    loading={this.state.loading}
+                    url={this.state.gif.url}
+                    sourceUrl={this.state.gif.sourceUrl}
+                />
+            </div>    
         )
     }
 })
